@@ -1,0 +1,137 @@
+section.summary-component {
+    width: inherit;
+    padding: 20px 25px 20px  35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.summary-component-tittle h2 {
+    margin: 0;
+    text-align: start;
+}
+
+.summary-component-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top:15px;
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff6f5;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.reaction-icon-tittle {
+    display: inherit;
+    gap: 20px;
+}
+
+.reaction-tittle p {
+    font-weight: bold;
+    color: rgb(233, 72, 72);
+}
+
+.reaction-status p#reaction {
+    font-size: medium;
+
+}
+
+.memory{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffbf2;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.memory-icon-tittle {
+    display: inherit;
+    gap: 20px;
+}
+
+.memory-tittle p {
+    font-weight: bold;
+    color: #d7b769;
+}
+
+.memory-status p#memory {
+    font-size: medium;
+
+}
+
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2fbfa;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.verbal-icon-tittle {
+    display: inherit;
+    gap: 20px;
+}
+
+.verbal-tittle p {
+    font-weight: bold;
+    color: #6ec3ac;
+}
+
+.verbal-status p#verbal {
+    font-size: medium;
+
+}
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3fd;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.visual-icon-tittle {
+    display: inherit;
+    gap: 20px;
+}
+
+.visual-tittle p {
+    font-weight: bold;
+    color: #3340a8;
+}
+
+.visual-status p#visual {
+    font-size: medium;
+
+}
+
+.sumary-component-button{
+    margin: 30px;
+}
+
+.sumary-component-button .button{
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: #303b59;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.sumary-component-button .button:hover{
+    background-color: #4433f1;
+}
+
+.sumary-component-button .button:active{
+    color: #6ec3ac;
+}
